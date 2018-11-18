@@ -1,0 +1,115 @@
+[{
+    "groupName": "Matériel",
+    "items": [{
+        "title": "Stratégie d’examen en vidéo",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/test_particulier_gdbase.jpg",
+        "price": "€50,00",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/strategie-dexamen-en-video/",
+        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
+      },
+      {
+        "title": "Syllabus papier de théorie + 100 exercices corrigés",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/test_particulier_gdbase.jpg",
+        "price": "€150,00",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/syllabus-theorie-100-exercices-corriges/",
+        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
+      }
+      
+      
+    ]
+  },
+  {
+    "groupName": "Formations",
+    "items": [{
+        "title": "Simulation 2",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€25,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/simulation2/",
+        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
+      },
+      {
+        "title": "Simulation 3",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€25,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/simulation3/",
+        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
+      },
+      {
+        "title": "Simulation 4",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€25,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/simulation4/",
+        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
+      },
+      {
+        "title": "Simulation 5",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€25,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/simulation5/",
+        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
+      },
+      {
+        "title": "Simulation 6",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€25,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/simulation6/",
+        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
+      },
+      {
+        "title": "Formation en cours particuliers",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€600,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/formation-en-cours-particuliers/",
+        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
+      },
+      {
+        "title": "Formation en vidéo",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€300,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/formation-en-video/",
+        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
+      },
+      {
+        "title": "Formation en groupe",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€250,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/formation-en-groupe/",
+        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
+      }
+
+    ]
+  },
+  {
+    "groupName": "Offres spéciales",
+    "items": [{
+        "title": "Formation en groupe + 3 heures de cours particuliers",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€400,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/formation-en-groupe-3-heures-de-cours-particuliers/",
+        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw" 
+      },
+      {
+        "title": "Formation en groupe + formation en vidéo",
+        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+        "price": "€550,00",
+        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
+        "buyURL": "https://www.gdbase.be/product/formation-en-groupe-formation-en-video/",
+        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
+      }
+     
+    ]
+  }
+
+
+]

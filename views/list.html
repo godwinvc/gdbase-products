@@ -1,0 +1,63 @@
+<div class="left-container">
+    <div class="container-fluid">
+        <div ng-repeat="item in list" style="margin-left:20px;">
+            <hr class="hr-text" data-content="{{item.groupName}}">
+          
+            <div class="first-item item" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" ng-repeat="card in item.items" ng-click="getSelected(card)" ng-class="{'active': selectedItem.id == card.id}">
+                <div class="circle">
+                    <div class="img-container">
+                        <img ng-src="{{card.image}}">
+                    </div>
+                </div>
+                <div class="item-text">
+                    <h3 class="item-name">{{card.title}}</h3>
+                    <p class="left-item-description">{{card.description}}</p>
+                    <h2 class="item-price">{{card.price}}</h2>
+                    <a class="buy-now" href="{{card.buyURL}}">BUY NOW</a>
+                </div>
+            </div>
+   
+        </div>
+    </div>
+</div>
+
+<div class="right-container visible-md visible-lg hidden-sm hidden-xs">
+    <div class="container-fluid">
+        <div class="globel-item gitem">
+            <iframe ng-src="{{trustSrc(selectedItem.videoURL)}}"></iframe>
+            <div class="right-item-decription">
+                <p style="text-align: center;margin-top:10px;">
+                    <h3 style="margin: 0px;font-size: x-large;text-transform: capitalize;letter-spacing: 1.5px;">{{selectedItem.title}}</h3>
+                    <hr style="margin:10px;">
+                    <div class="description">
+                        {{selectedItem.description}}
+                    </div>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+               
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">{{selectedItem.title}}</h4>
+            </div>
+            <hr class="hr-text1">
+            <div class="modal-body">
+                    <div class="model-video"> <iframe ng-src="{{trustSrc(selectedItem.videoURL)}}"></iframe></div>
+                    <hr class="hr-text1">
+                <p> {{selectedItem.description}}</p>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-default">BUY NOW</button>
+              
+            </div>
+        </div>
+
+    </div>
+</div>
