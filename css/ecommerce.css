@@ -1,15 +1,16 @@
 .left-container {
   float: left;
   overflow: hidden;
-  width: 700px;
+  width: 50vw;
   height: 100vh;
 }
 
 .right-container {
-  width: 600px;
+  width: 40vw;
   height: 100vh;
   float: left;
   margin-left: 30px;
+  margin-top: 5vh;
 }
 
 .first-item {
@@ -160,15 +161,13 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.right-container {}
-
 .gitem {
   background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  height: 100vh;
-  margin-left: 10px;
-  width: 500px;
+    border-radius: 2px;
+    display: inline-block;
+    height: 86vh;
+    margin-left: 10px;
+    width: 500px;
 }
 
 .right-container iframe {
@@ -309,3 +308,43 @@
 .model-body .model-video{padding:0px;}
 .model-body{padding:0px;}
 .model-body p{padding:15px;}
+.mobile-card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25), 1px 1px 3px rgba(0,0,0,.1);
+  margin: 0 auto;
+  margin-bottom: 25px;
+  max-width: 340px;
+}
+
+.mobile-card-media {
+  width: 100%;
+}
+
+.mobile-card-details {
+  padding: 5px 15px;
+}
+
+.mobile-card-head {
+  font-weight: 400;
+}
+
+.mobile-card-head {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.mobile-card-action-button {
+  border-radius: 2px;
+  color: #FFAB40;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.mobile-card-action-button:hover {
+  background-color: rgba(255 ,168 ,58, .2);
+}
