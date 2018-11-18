@@ -11,7 +11,10 @@ if (location.origin == "https://www.gdbase.be") {
 
 window.angular = require('angular');
 window.customScroll = require('../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min');
-require('../node_modules/bootstrap-sass/assets/javascripts/bootstrap');
+
+// Turn on the below line in dev env.
+// require('../node_modules/bootstrap-sass/assets/javascripts/bootstrap');
+
 require('../node_modules/angular-sanitize');
 require('../node_modules/angular-ui-router');
 require('../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min');
@@ -20,6 +23,7 @@ require('../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.
 require('../css/bootgodwin.css');
 require('../css/font-awesome.css');
 require('../css/ionicons.css');
+require('../css/globals.css');
 
 
 // mukesh css
