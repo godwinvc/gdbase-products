@@ -23,15 +23,16 @@
                         <p class="left-item-description">{{card.description}}</p>
                     </div>
                     <div class="gbtn-container circle col-lg-4 col-md-4">
-                        <div class="gbtn"> <a class="buy-now" href="{{card.buyURL}}">
+                        <div class="gbtn" data-toggle="modal" data-target="#products"> <a class="buy-now">
                                 <p>{{card.price}}</p>
-                                <p>Buy Now</p>
+                                <p>Acheter</p>
                             </a>
                         </div>
                     </div>
 
                 </div>
             </div>
+
         </div>
 
         <!-- end of desktop card -->
@@ -39,62 +40,91 @@
     </div>
 </div>
 
-    <div class="mobile-container hidden-lg hidden-md">
-        <!-- Cards design for mobile -->
-        <div class="mobile-scroll-container">
-            <div class="mobile-card-container" ng-repeat="item in list">
-                <hr class="hr-text" data-content="{{item.groupName}}">
-                <div class="mobile-card" ng-repeat="card in item.items" ng-click="getSelected(card)" data-toggle="modal"
-                    data-target="#myModal">
-                    <img ng-src="{{card.image}}" class="mobile-card-media" />
-                    <div class="mobile-card-details">
-                        <h2 class="card-head">{{card.title}}</h2>
-                        <p>{{card.description}}</p>
-                        <h2 class="item-price text-center">{{card.price}}</h2>
-                        <a class="btn btn-primary btn-block" href="{{card.buyURL}}">BUY NOW</a>
-                        <br>
+<div class="mobile-container hidden-lg hidden-md">
+    <!-- Cards design for mobile -->
+    <div class="mobile-scroll-container">
+        <div class="mobile-card-container" ng-repeat="item in list">
+            <hr class="hr-text" data-content="{{item.groupName}}">
+            <div class="mobile-card" ng-repeat="card in item.items" ng-click="getSelected(card)" data-toggle="modal"
+                data-target="#myModal">
+                <img ng-src="{{card.image}}" class="mobile-card-media" />
+                <div class="mobile-card-details">
+                    <h2 class="card-head">{{card.title}}</h2>
+                    <p>{{card.description}}</p>
+                    <h2 class="item-price text-center">{{card.price}}</h2>
+                    <a class="btn btn-primary btn-block">Acheter</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="right-container visible-md visible-lg hidden-sm hidden-xs">
+    <div class="container-fluid text-center">
+        <div class="globel-item gitem">
+            <iframe ng-src="{{trustSrc(selectedItem.videoURL)}}"></iframe>
+            <div class="right-item-decription">
+                <p style="text-align: center;margin-top:10px;">
+                    <h3 style="margin: 0px;font-size: x-large;text-transform: capitalize;letter-spacing: 1.5px;">{{selectedItem.title}}</h3>
+                    <hr style="margin:10px;">
+                    <div class="description">
+                        {{selectedItem.description}}
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">{{selectedItem.title}}</h4>
+            </div>
+            <hr class="hr-text1">
+            <div class="modal-body">
+                <div class="model-video"> <iframe ng-src="{{trustSrc(selectedItem.videoURL)}}"></iframe></div>
+                <hr class="hr-text1">
+                <p> {{selectedItem.description}}</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#products">Acheter</button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- products list -->
+
+<div class="modal fade" id="products" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">{{selectedItem.title}}</h4>
+            </div>
+            <hr class="hr-text1">
+            <div class="modal-body text-center">
+                <p>Le « thing that the client bought » a été ajouté au panier.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="container-fluid">
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-default btn-block btn-lg"><i class="fa fa-lg fa-shopping-cart"></i> Continuer les achats</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-primary btn-block"><i class="fa fa-lg fa-paypal"></i> Payer</button>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
-
-    <div class="right-container visible-md visible-lg hidden-sm hidden-xs">
-        <div class="container-fluid text-center">
-            <div class="globel-item gitem">
-                <iframe ng-src="{{trustSrc(selectedItem.videoURL)}}"></iframe>
-                <div class="right-item-decription">
-                    <p style="text-align: center;margin-top:10px;">
-                        <h3 style="margin: 0px;font-size: x-large;text-transform: capitalize;letter-spacing: 1.5px;">{{selectedItem.title}}</h3>
-                        <hr style="margin:10px;">
-                        <div class="description">
-                            {{selectedItem.description}}
-                        </div>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">{{selectedItem.title}}</h4>
-                </div>
-                <hr class="hr-text1">
-                <div class="modal-body">
-                    <div class="model-video"> <iframe ng-src="{{trustSrc(selectedItem.videoURL)}}"></iframe></div>
-                    <hr class="hr-text1">
-                    <p> {{selectedItem.description}}</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default">BUY NOW</button>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
+</div>

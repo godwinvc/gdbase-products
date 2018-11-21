@@ -13,7 +13,7 @@ window.angular = require('angular');
 window.customScroll = require('../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min');
 
 // Turn on the below line in dev env.
-// require('../node_modules/bootstrap-sass/assets/javascripts/bootstrap');
+require('../node_modules/bootstrap-sass/assets/javascripts/bootstrap');
 
 require('../node_modules/angular-sanitize');
 require('../node_modules/angular-ui-router');
