@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* Mixins
+        /* bg shortcodes */
+        /* .bg-gradient1 span,
+        .bg-gradient1:before {
+            background: #fa7e29;
+            background: -moz-linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+            background: -webkit-linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+            background: linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+        }
+
+        .bg-gradient2 span,
+        .bg-gradient2:before {
+            background: #39c2c9;
+            background: -moz-linear-gradient(180deg, #39c2c9 0%, #3fc8c9 80%, #3fc8c9 100%);
+            background: -webkit-linear-gradient(180deg, #39c2c9 0%, #3fc8c9 80%, #3fc8c9 100%);
+            background: linear-gradient(180deg, #39c2c9 0%, #3fc8c9 80%, #3fc8c9 100%);
+        }
+
+        .pop-onhover.bg-gradient3 span,
+        .pop-onhover.bg-gradient3:before {
+            background: #b9aef0;
+            background: -moz-linear-gradient(180deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
+            background: -webkit-linear-gradient(180deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
+            background: linear-gradient(180deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
+        }
+
+        .bg-gradient4 span {
+            background: #f6682f;
+            background: -moz-linear-gradient(180deg, #f6682f 0%, #f6682f 80%, #f6682f 100%);
+            background: -webkit-linear-gradient(180deg, #f6682f 0%, #f6682f 80%, #f6682f 100%);
+            background: linear-gradient(180deg, #f6682f 0%, #f6682f 80%, #f6682f 100%);
+        }
+
+        /* General */
+        
+
+        /*Na styles*/
+
+        .gbtn {
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background: -moz-linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+            background: -webkit-linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+            background: linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+        }
+
+        .gbtn p {
+            margin: 0px;
+            font-size: 19px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            transition: all .51s ease-in-out;
+            letter-spacing: 1px;
+            text-shadow: 0px 0px 8px #f6682f;
+        }
+
+        .gbtn p:nth-child(1) {
+            opacity: 1;
+            position: absolute;
+        }
+
+        .gbtn p:nth-child(2) {
+            opacity: 0;
+            position: absolute;
+            top: 150px;
+        }
+
+        .gbtn:hover p:nth-child(1) {
+            opacity: 0;
+        }
+
+        .gbtn:hover p:nth-child(2) {
+            opacity: 1;
+            top: 8px;
+        }
+
+        .gbtn-container {
+            float: left;
+            width: 150px;
+            height: 40px;
+            position: relative;
+            transition: all 0.3s ease-out;
+            transform: scale(0.95);
+            cursor: pointer;
+        }
+
+        .gbtn-container:hover {
+            transform: scale(1);
+        }
+
+        .gbtn-container::before {
+            width: 150px;
+            height: 40px;
+            content: '';
+            display: inline-block;
+            height: 40px;
+            position: absolute;
+            bottom: -3px;
+            left: 2px;
+            right: 10px;
+            z-index: -1;
+            border-radius: 2em;
+            filter: blur(5px) brightness(0.9);
+            opacity: 0.5;
+            transform-style: preserve-3d;
+            transition: all 0.3s ease-out;
+            background: -moz-linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+            background: -webkit-linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+            background: linear-gradient(180deg, #fa7e29 0%, #f6682f 80%, #f6682f 100%);
+        }
+
+        .gbtn-container:hover::before {
+            filter: blur(14px) brightness(1.3);
+            opacity: 1;
+            bottom: -13px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <a href="#" class="fancy-button bg-gradient1">
+        <span>$500</span>
+    </a> -->
+    <div class="gbtn-container">
+        <div class="gbtn">
+            <p>$500</p>
+            <p>Buy Now</p>
+        </div>
+    </div>
+</body>
+
+</html>
