@@ -1,115 +1,125 @@
 [{
-    "groupName": "Matériel",
-    "items": [{
-        "title": "Stratégie d’examen en vidéo",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/test_particulier_gdbase.jpg",
-        "price": "€50,00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/strategie-dexamen-en-video/",
-        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
-      },
-      {
-        "title": "Syllabus papier de théorie + 100 exercices corrigés",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/test_particulier_gdbase.jpg",
-        "price": "€150,00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/syllabus-theorie-100-exercices-corriges/",
-        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
-      }
-      
-      
-    ]
-  },
-  {
-    "groupName": "Formations",
-    "items": [{
-        "title": "Simulation 2",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€25,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/simulation2/",
-        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
-      },
-      {
-        "title": "Simulation 3",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€25,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/simulation3/",
-        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
-      },
-      {
-        "title": "Simulation 4",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€25,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/simulation4/",
-        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
-      },
-      {
-        "title": "Simulation 5",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€25,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/simulation5/",
-        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
-      },
-      {
-        "title": "Simulation 6",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€25,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/simulation6/",
-        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
-      },
-      {
-        "title": "Formation en cours particuliers",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€600,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/formation-en-cours-particuliers/",
-        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
-      },
-      {
-        "title": "Formation en vidéo",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€300,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/formation-en-video/",
-        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw"
-      },
-      {
-        "title": "Formation en groupe",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€250,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/formation-en-groupe/",
-        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
-      }
+  "groupName": "Matériel",
+  "items": [{
+      "title": "Stratégie d’examen en vidéo",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/test_particulier_gdbase.jpg",
+      "price": "€50,00",
+      "description": "La stratégie d'examen vous permettra de savoir comment se passe l'examen, les 3 types de question, les règles d'examen ainsi que la façon de récolter les points positifs et éviter les pojnts nagétifs.",
+      "buyURL": "https://www.gdbase.be/product/strategie-dexamen-en-video/",
+      "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw",
+      "productId": "609"
+    },
+    {
+      "title": "Syllabus théorique + 100 exercices corrigés",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/test_particulier_gdbase.jpg",
+      "price": "€150,00",
+      "description": "Le syllabus contient 100 pages de théorie intégralement illustrées et colorées pour vous aider à comprendre la matière de l'examen de gestion de base. En plus de cela, vous recevrez 100 exercices de l'examen, expliqués et corrigés.",
+      "buyURL": "https://www.gdbase.be/product/syllabus-theorie-100-exercices-corriges/",
+      "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8",
+      "productId": "597"
+    }
+    
+    
+  ]
+},
+{
+  "groupName": "Formations",
+  "items": [{
+      "title": "Simulation 2",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€25,00",
+      "description": "En 1h30, répondez à 30 autres questions d'examen de gestion de base et vérifiez que vous êtes prêt à passer l'examen. La cotation est la même qu'à l'examen. Vous pourrez refaire cette simulation à volonté.",
+      "buyURL": "https://www.gdbase.be/product/simulation2/",
+      "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw",
+      "productId": "694"
+    },
+    {
+      "title": "Simulation 3",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€25,00",
+      "description": "En 1h30, répondez à 30 autres questions d'examen de gestion de base et vérifiez que vous êtes prêt à passer l'examen. La cotation est la même qu'à l'examen. Vous pourrez refaire cette simulation à volonté.",
+      "buyURL": "https://www.gdbase.be/product/simulation3/",
+      "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8",
+      "productId": "695"
+    },
+    {
+      "title": "Simulation 4",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€25,00",
+      "description": "En 1h30, répondez à 30 autres questions d'examen de gestion de base et vérifiez que vous êtes prêt à passer l'examen. La cotation est la même qu'à l'examen. Vous pourrez refaire cette simulation à volonté.",
+      "buyURL": "https://www.gdbase.be/product/simulation4/",
+      "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw",
+      "productId": "696"
+    },
+    {
+      "title": "Simulation 5",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€25,00",
+      "description": "En 1h30, répondez à 30 autres questions d'examen de gestion de base et vérifiez que vous êtes prêt à passer l'examen. La cotation est la même qu'à l'examen. Vous pourrez refaire cette simulation à volonté.",
+      "buyURL": "https://www.gdbase.be/product/simulation5/",
+      "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8",
+      "productId": "700"
+    },
+    {
+      "title": "Simulation 6",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€25,00",
+      "description": "En 1h30, répondez à 30 autres questions d'examen de gestion de base et vérifiez que vous êtes prêt à passer l'examen. La cotation est la même qu'à l'examen. Vous pourrez refaire cette simulation à volonté.",
+      "buyURL": "https://www.gdbase.be/product/simulation6/",
+      "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw",
+      "productId": "701"
+    },
+    {
+      "title": "Formation en cours particuliers",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€600,00",
+      "description": "Les cours particuliers de gestion de base se passent en 4 séances de 2h30, à votre domicile ou dans tout autre lieu de votre choix. Ils peuvent commencer dans les 3 jours à venir. Vous recevrez le syllabus de théorie, les 100 exercices d'examen en vidéo et un professeur disponible uniquement pour vous.",
+      "buyURL": "https://www.gdbase.be/product/formation-en-cours-particuliers/",
+      "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8",
+      "productId": "616"
+    },
+    {
+      "title": "Formation en vidéo",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€300,00",
+      "description": "La formation de gestion de base en vidéo se suit sur votre ordinateur ou tablette. Vous recevrez un syllabus papier pour y prendre vos notes et chaque page expliquée par une vidéo de 5 à 10 minutes. Des questions de validations vous sont ensuite posées pour vérifier que vous avez bien compris la matière. Vous recevrez aussi 100 exercices d'examen corrigés et expliqués en vidéo.",
+      "buyURL": "https://www.gdbase.be/product/formation-en-video/",
+      "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw",
+      "productId": "615"
+    },
+    {
+      "title": "Formation en groupe",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€250,00",
+      "description": "Les cours en groupe de gestion de base se donnent durant un week-end, de 09h à 17h à Bruxelles. Vous recevrez un syllabus en version papier ainsi que 100 exercices d'examen corrigés et expliqués.",
+      "buyURL": "https://www.gdbase.be/product/formation-en-groupe/",
+      "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8",
+      "productId": "613"
+    }
 
-    ]
-  },
-  {
-    "groupName": "Offres spéciales",
-    "items": [{
-        "title": "Formation en groupe + 3 heures de cours particuliers",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€400,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/formation-en-groupe-3-heures-de-cours-particuliers/",
-        "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw" 
-      },
-      {
-        "title": "Formation en groupe + formation en vidéo",
-        "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
-        "price": "€550,00",
-        "description": "Voluptate numquam mollitia obcaecati maiores inventore velit, aut, eum ratione harum ab officiis perferendis quos sint impedit consequuntur? Mollitia quam qui cumque!",
-        "buyURL": "https://www.gdbase.be/product/formation-en-groupe-formation-en-video/",
-        "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8"
-      }
-     
-    ]
-  }
-
-
+  ]
+},
+{
+  "groupName": "Offres globales",
+  "items": [{
+      "title": "Formation en groupe + 3 heures de cours particuliers",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€400,00",
+      "description": "Cette offre vous permet de bénéficier des cours en groupe et de 3 heures supplémentaires de cours particuliers",
+      "buyURL": "https://www.gdbase.be/product/formation-en-groupe-3-heures-de-cours-particuliers/",
+      "videoURL":"https://www.youtube.be/embed/4UY3YHSgoTw",
+      "productId": "619"
+    },
+    {
+      "title": "Formation en groupe + formation en vidéo",
+      "image": "https://www.gdbase.be/wp-content/uploads/2017/10/formation4.jpg",
+      "price": "€500,00",
+      "description": "Profiter d'une séance de cours en groupe et des cours en vidéo afin de toujours avoir une aide pour réussir votre examen !",
+      "buyURL": "https://www.gdbase.be/product/formation-en-groupe-formation-en-video/",
+      "videoURL":"https://www.youtube.be/embed/OwD_VnMOVQ8",
+      "productId": "617"
+    }
+   
+  ]
+}
 ]

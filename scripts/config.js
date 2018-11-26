@@ -34,6 +34,17 @@ angular.module('myapp', ['ngSanitize'])
     $scope.getSelected = function (item) {
       $scope.selectedItem = item;
     }
+    $scope.continueShopping = function (item) {
+      $.post(location.href, { "quantity": "1", "add-to-cart": item.productId }, function (data) {
+        console.log(item.title + "with ID: " + item.productId + "has been added to cart");
+        location.href = location.href;
+      })
+    }
+    $scope.goToCheckout = function (item) {
+      $.post(location.href, { "quantity": "1", "add-to-cart": item.productId }, function (data) {
+        console.log(item.title + "with ID: " + item.productId + "has been added to cart");
+        location.href = "https://www.gdbase.be/panier/";
+      });
+    }
   })
 angular.bootstrap(document.querySelector('body'), ['myapp']);
-//scroll-down testing
