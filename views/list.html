@@ -125,10 +125,10 @@
             <div class="modal-footer">
                 <div class="container-fluid">
                     <div class="col-sm-6">
-                        <button type="button" class="btn btn-default btn-block btn-lg"><i class="fa fa-lg fa-shopping-cart"></i> Continuer les achats</button>
+                        <button type="button" class="btn btn-default btn-block btn-lg" ng-click="continueShopping(selectedItem)"><i class="fa fa-lg fa-shopping-cart"></i> Continuer les achats</button>
                     </div>
                     <div class="col-sm-6">
-                        <button type="button" class="btn btn-primary btn-block"><i class="fa fa-lg fa-paypal"></i> Payer</button>
+                        <button type="button" class="btn btn-primary btn-block" ng-click="goToCheckout(selectedItem)"><i class="fa fa-lg fa-paypal"></i> Payer</button>
                     </div>
                 </div>
             </div>
